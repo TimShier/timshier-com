@@ -1,0 +1,71 @@
+.fa{
+    color:#000;
+}
+
+.fa-heart{
+    color:red;
+
+}
+
+#about{
+    padding-top:50px;
+    padding-bottom:0px;
+}
+
+header{
+    background-color: #212F3C;
+}
+section.success{
+    background-color: #2E4053;
+}
+
+section#contact{
+    background-color: #D6DBDF;
+}
+
+
+.timeline {
+    border-left:3px solid #FFFFFF;
+    margin-left:110px;
+    padding-left:0px;
+}
+
+.event {
+    padding:20px 10px 20px 18px;
+    margin-bottom:15px;
+}
+
+.event .event-info {
+    position:absolute;
+    left:50px;
+    width:100px;
+}
+
+.event .event-info:after {
+    font-family: FontAwesome;
+    width:36px;
+    height:36px;
+    position: absolute;
+    right: 5px;
+    top: -7px;
+    content:"\f024";
+    text-align:center;
+    font-size:14px;
+    border-radius:50%;
+    background-color:#1ABC9C;
+    border:6px solid #34495E;
+    display: inline-block;
+    padding-top:2px;
+}
+
+.event .event-info .date {
+    font-size:12px;
+    font-family:'Montserrat';
+    margin-left:25px;
+}
+
+.event .event-info .date div {
+    float:left;
+    padding:8px 0 0 12px;
+    font-weight:600;
+}
